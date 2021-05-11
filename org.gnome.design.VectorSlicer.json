@@ -1,7 +1,7 @@
 {
   "app-id" : "org.gnome.design.VectorSlicer",
   "runtime" : "org.gnome.Platform",
-  "runtime-version" : "3.36",
+  "runtime-version" : "40",
   "sdk" : "org.gnome.Sdk",
   "sdk-extensions" : [
     "org.freedesktop.Sdk.Extension.rust-stable"
@@ -16,7 +16,6 @@
   "build-options" : {
     "append-path" : "/usr/lib/sdk/rust-stable/bin",
     "env" : {
-      "RUSTFLAGS" : "--remap-path-prefix =../",
       "CARGO_HOME" : "/run/build/VectorSlicer/cargo",
       "RUST_BACKTRACE" : "1",
       "CARGO_NET_OFFLINE" : "true",
