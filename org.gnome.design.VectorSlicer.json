@@ -16,7 +16,7 @@
   "build-options" : {
     "append-path" : "/usr/lib/sdk/rust-stable/bin",
     "env" : {
-      "CARGO_HOME" : "/run/build/VectorSlicer/cargo",
+      "CARGO_HOME" : "/run/build/vector-slicer/cargo",
       "RUST_BACKTRACE" : "1",
       "CARGO_NET_OFFLINE" : "true",
       "RUST_LOG" : "vector-slicer=debug"
@@ -32,7 +32,11 @@
           "tag" : "v0.0.2",
           "url" : "https://gitlab.gnome.org/World/design/vector-slicer.git"
         },
-        "cargo-sources.json"
+        "cargo-sources.json",
+        {
+          "type": "patch",
+          "path": "cargo-source.patch"
+        }
       ]
     }
   ]

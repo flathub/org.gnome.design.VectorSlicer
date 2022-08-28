@@ -949,9 +949,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://gitlab.gnome.org/gnome/librsvg",
-        "commit": "528a84f99f1f555bb74f8335fba1f41a8dffe404",
+        "type": "archive",
+        "url": "https://gitlab.gnome.org/GNOME/librsvg/-/archive/528a84f99f1f555bb74f8335fba1f41a8dffe404/librsvg-main.tar.bz2",
+        "sha256": "e7ec21424d883148fad30edb8b12c1b0cfd9d8ab9ab5d7edac5fa54d19d143cb",
         "dest": ".cargo/vendor/librsvg"
     },
     {
@@ -1879,9 +1879,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://gitlab.gnome.org/gnome/librsvg",
-        "commit": "528a84f99f1f555bb74f8335fba1f41a8dffe404",
+        "type": "archive",
+        "url": "https://gitlab.gnome.org/GNOME/librsvg/-/archive/528a84f99f1f555bb74f8335fba1f41a8dffe404/librsvg-main.tar.bz2",
+        "sha256": "e7ec21424d883148fad30edb8b12c1b0cfd9d8ab9ab5d7edac5fa54d19d143cb",
         "dest": ".cargo/vendor/rsvg_internals"
     },
     {
