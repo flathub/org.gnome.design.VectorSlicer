@@ -1,0 +1,11 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index 876b7a6..8d6624c 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -15,5 +15,4 @@ cairo-rs = { version = "0.7.1", features = ["pdf", "v1_16"] }
+ gettext-rs= { version = "0.4.1", features = ["gettext-system"] }
+ pdf = "0.6.3"
+ [dependencies.librsvg]
+-git = "https://gitlab.gnome.org/gnome/librsvg"
+-
++path = ".cargo/vendor/librsvg"
