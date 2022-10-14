@@ -8,4 +8,4 @@ index 876b7a6..8d6624c 100644
  [dependencies.librsvg]
 -git = "https://gitlab.gnome.org/gnome/librsvg"
 -
-+path = ".cargo/vendor/librsvg"
++path = "cargo/vendor/librsvg"
